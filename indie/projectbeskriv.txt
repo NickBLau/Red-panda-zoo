@@ -1,0 +1,37 @@
+Hvad er formålet med siden? 
+hjælpe rød pandaer gennem iformationer og få anskaffet penge til at hjælpe
+sprede ommærksomhed til røde pander
+
+Hvem er målgruppen? 
+folk der kan lide dyr og er villige til at donere
+mænd og kvinder i aldersgruppen 30-50
+
+Specifikation:
+index indeholder følgende elementer
+- header
+- menu
+- info box
+- footer
+
+galleri indeholder
+-header
+-slider
+-footer
+
+support indeholder
+-header
+-merch slider
+-t-shirt slider
+-donation link
+-footer
+
+kontakt indeholder
+-header
+-kontakt form
+-footer
+
+
+
+
+Hvilke teknologier bruger du til udførslen?
+html, css, java

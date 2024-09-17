@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt os</title>
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="kontakt.js" defer></script>
+</head>
+<body>
+
+    <section class="index-header">
+        <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"></a>
+        <h1>Red panda zoo and rescue</h1>
+    </section> 
+
+    <div id="kontakt-os">
+        <form  class="login-form">
+        
+        <label for="name">Dit navn: </label>
+        <input type="text" id="name" placeholder="ex. John Doe*" title="Du må kun bruge bogstaver fra a-å" pattern="[ a-åA-Å]+">
+        <span id="name-error"> </span>
+        
+
+        <label for="email">Din email: </label>
+        <input type="email" id="email" placeholder="ex. JohnDoe@email.com*" title="Du må kun bruge a-å 0-9 ._+-@" pattern ="[a-åA-Å0-9._+-@]+]">
+        <span id="email-error"></span>
+
+        <label for="phone">Din Telefon</label>
+        <input type="tel" id="phone" placeholder="ex. 12 34 56 78">
+        
+        <label for="message">Din besked: </label>
+        <textarea id="message" min-rows="10" placeholder="Skriv din besked her...*"></textarea>
+        <span id="message-error"> </span>
+        <span id="message-success"> </span>
+        <input type="submit" value="Submit" id="submit">
+        </form>
+</div>
+
+
+  <p id="errorMsg"></p>
+
+
+        <footer>
+            <div class="footer-left">
+                <a href="https://da-dk.facebook.com/"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="https://dk.linkedin.com/"><img src="img/linkedin.svg" alt="linkedin"></a>
+                <a href="https://twitter.com/"><img src="img/twitter.svg" alt="twitter"></a>
+        
+            </div>
+            <div class="footer-right">
+                <p>kontakt os på</p>
+            <p>telefon: 12 34 56 78</p>
+              <p> <a href="mailto:redpanda@zoo.com.com">E-mail os på redpanda@zoo.com</a>  
+            </p>
+            </div>
+        </footer>
+    </body>
+</html>

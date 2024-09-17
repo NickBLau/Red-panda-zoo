@@ -1,0 +1,176 @@
+@import 'root.css';
+@import 'all.css';
+
+h3{
+    text-align: center;
+    font-size:1vw;
+}
+
+
+
+/* .link-to-site{
+    background-color: rgb(220, 51, 93);
+    max-width: 10%;
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 10%;
+    padding-left: 1%;
+    margin-top: 5%;
+    margin-left: 2%;
+    gap: 30vh;
+    font-size: 200%;
+} */
+
+.links-to-site{
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    margin: 5%;
+    min-width: 20%;
+
+}
+
+.links-to-site p{
+    font-size: 100%;
+    text-decoration: none;
+    
+}
+
+.links-to-site a{
+    text-decoration: none;
+    color: var(--h1-6);
+}
+
+
+
+/* .info-box{
+    display: flex;
+    background-color: aqua;
+    margin-left: 20%;
+    margin-right: 10%;
+} */
+
+.wrapper{
+    display: grid;
+
+}
+
+.longbox{
+    background-color: var(--box);
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    margin-left: 20%;
+    font-size: 40px;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    padding-top: 25%;
+    border-radius: 4px;
+    text-decoration: none;
+    min-width: 75px;
+    width: clamp(30%, 300px, 80%);
+    word-break: break-word;
+    
+}
+
+/* .box-1{
+    display: grid;
+    grid-column: 2 / span 5;
+    margin-left: 5%;
+    min-width: 50%;
+    max-width: 100%;
+
+} */
+
+.info-box{
+    background-color: var(--box);
+    margin-right: 10%;
+    margin-top: 1%; 
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 10% 45% 45%;
+    border-radius: 4px;
+    min-width: 50%;
+}
+
+
+
+.first-p-tag{
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 4%;
+    margin-bottom: 0%;
+    word-break: break-word;
+}
+
+.purpose img{
+    
+grid-column: 3;
+grid-row: 1;
+margin-top: 2%;
+margin-left: 2%;
+border-radius: 5px;
+width: clamp(20%, 250px, 100%);
+float: right;
+
+border: 1px solid black;
+
+}
+
+
+
+
+.info-box-second{
+    background-color: var(--box);
+    grid-column: 2 / span 5;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    border-radius: 4px;
+}
+
+.purpose{
+    margin-left: 2%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    
+}
+
+.purpose h2{
+    font-size: 8rem;
+    text-align: start;
+}
+
+.purpose h3{
+    font-size: 50px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    word-break:keep-all;
+}
+
+.donate{
+max-width: 200px;
+margin: auto;
+}
+
+.longbox a:hover {
+    font-size: 41px;
+    text-decoration: underline;
+    color: var(--background);
+  }
+
+
+
+@media (max-width: 600px) {
+    .links-to-site a {
+      text-decoration: underline;
+    }
+
+    .purpose h2{
+        font-size: 2rem
+    }
+  }

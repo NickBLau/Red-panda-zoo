@@ -1,0 +1,10 @@
+.panda-header{
+    color: var(--box);
+    text-align: center;
+    font-size: 90px;
+    word-break: break-word;
+}
+
+h2{
+    font-size: 40px;
+}
